@@ -1,0 +1,109 @@
+@font-face {
+    font-family:"Segoe";
+    src: url(Fontes/Segoe/SEGOEUIL.TTF);
+}
+
+body{
+    
+    margin:0;
+    font-family:Calibri; 
+    background:#EEEEE0;
+    color:#696969;
+    
+}
+
+.azul{background:#E0EEE0;}
+.wheat{background:#EEEED1;}
+.cinza{background:#EEE9E9;}
+
+.center{text-align:center;}
+.left{text-align:left;}
+.right{text-align:right;}
+.justi{text-align:justify;}
+
+/*
+
+Azul:
+Vermelho:
+Amarelo:
+Verde: #A9D18E
+
+*/
+
+#conteudo{
+    
+    position:absolute;
+    margin-top:70px;
+    width:100%;
+    padding:0;
+}
+
+
+.link {
+    
+    text-decoration:none;
+    background:#5E9DC8;
+    color:#EEEEE0;
+    padding-bottom:2px;
+    margin-bottom:4px;
+    border-radius:7px;
+    margin-left:2px;
+    -moz-opacity: 0.65;
+    filter: alpha(opacity=65);
+    -o-property:all .4s white; 
+    -moz-transition:all .4s ease; 
+    -webkit-transition:all .4s ease; 
+    -ms-transition:all .4s white; 
+    border:0px;
+    padding:3px;
+    padding-top:1px;
+    padding-left:8px;
+    padding-right:9px;
+    
+}
+
+.input-text{
+    
+    padding:8px;
+    background:#98FB98;
+    border:1px solid lightgreen;
+    border-radius:4px;
+    
+}
+
+a:hover{
+    
+    opacity:1;
+    
+}
+
+table{
+    
+    width:400px;
+    
+}
+
+.table-componentes td{
+    
+    height:35px;
+    padding-left:6px;
+    padding-right:6px;
+    
+    color:#006699;
+    
+}
+
+#rodape{
+    
+    position:fixed;
+    bottom:0;
+    width:100%;
+    
+    border-top:1px solid #B5B5B5;
+    background-color:#F5F5F5;
+    color:gray;
+    font-size:14.5px;
+    
+    font-family: 'Lato', Arial, sans-serif;
+    
+}

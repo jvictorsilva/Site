@@ -1,0 +1,48 @@
+.tabela-atividades{
+    
+    position:relative;
+    left:50%;
+    margin-left:-550px;
+    width:1100px;
+    
+}
+
+.tabela-atividades td{
+    
+    width:25%;
+    height:40px;
+    padding:12px;
+    
+    background:#C3C3C3;
+    color:#006699;
+    
+}
+
+.tabela-atividades td p{
+
+    margin:0;
+    margin-top:2px;
+    
+}
+
+td img{
+    
+    border-radius:7px;
+    opacity:0.65;
+    
+}
+
+.tabela-atividades td p img{
+    
+    position:absolute;
+    margin:0;
+    margin-top:-4px;
+    
+}
+
+.cubo{
+    
+    padding:14px;
+    padding-left:17px;
+    
+}
